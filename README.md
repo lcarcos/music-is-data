@@ -41,7 +41,31 @@ Utilizaremos Python e o API do Spotify para construir uma aplicação de anális
 
 ### 2. Modelagem 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula. Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam. 
+Acesso a API do Spotify
+
+Credenciais de acesso
+
+Para criarmos nossa aplicação utilizando o serviço de música do Spotify precisamos inicialmente de uma conta no spotify.com . As mesmas credenciais nos permitem configurarmos a conta de desenvolvedor no serviço Spotify for Developer. A partir daí é possível a criação de uma aplicação utilizando o API do Spotify acessando o servidor e manipulando dados conforme desejemos. 
+
+https://developer.spotify.com/
+
+
+
+Criamos a aplicação “Music is Data” e obtemos nos Client ID e Client Secret, informações essenciais para acessarmos a API. 
+
+
+Biblioteca Python Spotipy
+
+Trabalhamos com a linguagem Python e acessamos os dados de músicas do Spotify usando a biblioteca Spotipy. Esta biblioteca leve, suporta todos os recursos da API da Web do Spotify. 
+
+https://spotipy.readthedocs.io 
+
+
+
+
+Importamos a biblioteca Spotipy para conectar ao servidor do Spotify através do API e importamos SpotifyClientCrendials e através de nosso Client ID e Client Secret estabelecemos a conexão. 
+
+
 
 ### 3. Resultados 
 
