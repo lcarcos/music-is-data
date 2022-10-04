@@ -1,4 +1,5 @@
-# Music is Data
+# Music is Data: Uma introdução à recuperação de informações musicais (MIR) - análise e categorização de dados musicais
+
 
 #### Aluno: [Luis Claudio Santos Arcos](https://github.com/lcarcos) 
 
