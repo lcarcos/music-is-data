@@ -24,46 +24,61 @@ Provavelmente, você está inscrito em algum tipo de serviço popular de streami
 
 A recuperação de informações musicais (music information retrieval) é a ciência de analisar e categorizar dados musicais. Algumas aplicações do MIR estão intimamente relacionadas ao campo da ciência de dados, ao mesmo tempo em que combinam vários campos, como psicoacústica, processamento de sinais, aprendizado de máquina e inteligência computacional. O MIR é um campo de pesquisa crescente, com muitas aplicações no mundo real. Sistemas de recomendação musical são exemplos de aplicação. 
 
-O Spotify é um serviço de música muito popular que aplica técnicas de aprendizagem de máquina para análise de áudio e recuperação de informações musicais.  Felizmente, o Spotify disponibiliza esses dados através de sua API da Web. É possível explorar as características do áudio e analisar detalhadamente as faixas. Características como dançabilidade, energia, valência, tempo e outras:
+O Spotify é um serviço de música muito popular que aplica técnicas de aprendizagem de máquina para análise de áudio e recuperação de informações musicais.  Felizmente, o Spotify disponibiliza esses dados através de sua API da Web. É possível explorar as características do áudio e analisar detalhadamente as faixas.
 
-Humor: Dançabilidade, Valência, Energia, Tempo
-Propriedades: Loudness, Speechiness, Instrumentalness
-Contexto: vivacidade, acústica
-Segmentos, Tatums, Bares, Beats, Pitchs, Timbre e muito mais
- 
 Algumas dessas características poderiam explicar o porquê de algumas músicas serem mais ou menos populares. Essa análise é especialmente útil para músicos, gravadoras e distribuidores de música, que podem optar por investir recursos limitados (campanhas publicitárias, equipamento de estúdio, etc.) em faixas que provavelmente se tornarão populares.
 
-Através da API é possível requisitar informações ao servidor do Spotify . É possível buscar por faixas, por artistas, álbuns , atributos das músicas, popularidade dos artistas, os diferentes atributos disponíveis nas músicas dos artistas , os maiores sucessos dos artistas. Muitas coisas que podemos coletar utilizando o APi do Spotify
+O objetivo desse trabalho é a criação de uma aplicação de análise e categorização musical baseado no sistema de recomendação do Spotify. Utilizaremos Python e o API do Spotify em nosso desenvolvimento. 
 
-O objetivo desse trabalho é a criação de um sistema de análise e categorização musical baseado no sistema de recomendação do Spotify.
+Nesse trabalho, utilizaremos como exemplo a artista Anitta. Queremos buscar suas músicas mais populares, oferecendo uma análise visual das características do áudio. Finalmente utilizaremos o sistema de recomendação do Spotify para criação de uma *playlist*. 
 
-Utilizaremos Python e o API do Spotify para construir uma aplicação de análise de dados, analisando os detalhes das músicas, popularidade, atributos dos audio, qual música é “melhor” que outra sob determinado aspecto e utilizaremos para criar recomendações baseadas em determinadas características.
 
 ### 2. Modelagem 
 
-Acesso a API do Spotify
+#### Acesso a API do Spotify
 
-Credenciais de acesso
+Para criarmos nossa aplicação utilizando o serviço de música do Spotify precisamos inicialmente de uma conta no [spotify.com](www.spotify.com) . As mesmas credenciais nos permitem configurarmos a conta de desenvolvedor no serviço [Spotify for Developers](https://developer.spotify.com/). A partir daí é possível a criação de uma aplicação utilizando o API do Spotify acessando o servidor e manipulando dados conforme desejemos. 
 
-Para criarmos nossa aplicação utilizando o serviço de música do Spotify precisamos inicialmente de uma conta no spotify.com . As mesmas credenciais nos permitem configurarmos a conta de desenvolvedor no serviço Spotify for Developer. A partir daí é possível a criação de uma aplicação utilizando o API do Spotify acessando o servidor e manipulando dados conforme desejemos. 
+Criamos a aplicação “Music is Data” e obtemos nosso Client ID e Client Secret, informações essenciais para acessarmos a API. 
 
-https://developer.spotify.com/
-
-
-
-Criamos a aplicação “Music is Data” e obtemos nos Client ID e Client Secret, informações essenciais para acessarmos a API. 
+![spotify_devloper](https://user-images.githubusercontent.com/29662327/194144682-a423d586-633b-4033-ab3b-4e65cb95c9cd.PNG)
 
 
-Biblioteca Python Spotipy
+
+#### Biblioteca Python Spotipy
 
 Trabalhamos com a linguagem Python e acessamos os dados de músicas do Spotify usando a biblioteca Spotipy. Esta biblioteca leve, suporta todos os recursos da API da Web do Spotify. 
 
+```
+
+!pip install spotipy
+
+```
 https://spotipy.readthedocs.io 
 
+![spotipy](https://user-images.githubusercontent.com/29662327/194144786-8ee7f854-6b36-4c8a-987a-098d8673b5a4.PNG)
 
+Importamos a biblioteca Spotipy e importamos SpotifyClientCrendials. Utilizando nosso Client ID e Client Secret estabelecemos a conexão. 
 
+```
+import spotipy
+from spotipy.oauth2 import SpotifyClientCredentials
 
-Importamos a biblioteca Spotipy para conectar ao servidor do Spotify através do API e importamos SpotifyClientCrendials e através de nosso Client ID e Client Secret estabelecemos a conexão. 
+```
+```
+SPOTIPY_CLIENT_ID='16960f7026d64979bf989042a150a0ff'
+SPOTIPY_CLIENT_SECRET='ba1a553dd0e8427cae6a7fbacc676f5d'
+
+```
+```
+auth_manager = SpotifyClientCredentials(client_id=SPOTIPY_CLIENT_ID, client_secret=SPOTIPY_CLIENT_SECRET)
+sp = spotipy.Spotify(auth_manager=auth_manager)
+
+```
+#### Coletando Dados 
+
+Nosso objetivo inicial é buscar as músicas mais populares da cantora Anitta no sistema do Spotify. Para isso precisamos identificar sua URI, parâmetro utilizado pelo Spotify para identificar artistas, álbuns e faixas. 
+
 
 
 
