@@ -102,13 +102,13 @@ for track in results['tracks'][:10]:
     print()
       
 ```
-Finalmente criamos um data frame com as músicas mais popuares importando as respectivas características do áudio. 
+Finalmente criamos um data frame com as músicas mais populares importando as respectivas características do áudio. 
 
 [Ver código](https://github.com/lcarcos/music-is-data/blob/main/Projeto%20Final%20-%20BI%20Master%20-%20Luis%20Claudio%20Arcos.ipynb)
 
 ### 3. Resultados 
 
-####Características do Áudio e Análise de Dados
+#### Características do Áudio
 
 A API do Spotify disponibiliza informações importantes sobre as músicas. Ao analisar as principais características da música, o Spotify é capaz de determinar sua semelhança com outras músicas e fazer recomendações com base em como a música soa em comparação com outras. É assim que o Spotify recomenda artistas menores e músicas mais recentes para que os usuários não ouçam apenas músicas populares de artistas maiores.
 Para cada faixa em sua plataforma, o Spotify fornece dados para treze recursos de áudio. O [guia do desenvolvedor do Spotify Web API](https://developer.spotify.com/console/get-audio-features-track/) os define da seguinte forma:
@@ -134,11 +134,30 @@ Para cada faixa em sua plataforma, o Spotify fornece dados para treze recursos d
 >*Key*: A tonalidade geral estimada da faixa. Os inteiros são mapeados para pitchs usando a notação padrão de Pitch Class. Por exemplo. 0 = C, 1 = C♯/D♭, 2 = D, e assim por diante.
 >
 >*Mode*: Indica a modalidade (maior ou menor) de uma faixa, o tipo de escala da qual seu conteúdo melódico é derivado. Maior é representado por 1 e menor é 0.
+>
 >*Duration*: A duração da faixa em milissegundos.
 >
 >*Time Signature*: Uma assinatura de tempo geral estimada de uma faixa. A fórmula de compasso (medidor) é uma convenção de notação para especificar quantas batidas existem em cada compasso (ou medida).
 
 Em nossa análise trabalharemos com 7 características principais relacionadas à popularidade: *'acousticness', 'danceability', 'energy', 'instrumentalness', 'liveness', 'speechiness'* e *'valence’* .
+
+#### Análise de Dados
+
+Nossa aplicação possibilita a criação de gráficos relacionando determinadas caractéristas do aúdio e popularidade. O gráfico a seguir apresenta as músicas mais populares da Anitta na plataforma Spotify, relacionando com a característica *"danceability"*.
+
+![fiagura1](https://user-images.githubusercontent.com/29662327/194157483-b6a8d83b-5d2a-4d71-9334-a5b58907c26e.png)
+
+
+![figura2](https://user-images.githubusercontent.com/29662327/194157784-ac6d8326-6128-462c-a750-d5f50e2f5f66.png)
+
+Uma análise visual utilizando gráfico radar ajuda no entendimento das características do áudio. Pegamos como exemplo a música “Envolver”, da artista Anitta.  
+
+![figura3](https://user-images.githubusercontent.com/29662327/194162267-d5db8e15-a31a-40c6-8efc-0c5f5a229bc5.png)
+
+Em seguida criamos um gráfico comparando as características da música "Envolver" e da música "Gata (feat. Chencho Corleone)". 
+
+![figura4](https://user-images.githubusercontent.com/29662327/194164406-0064ff11-6d01-4993-a675-ee01727e80e9.png)
+
 
 ### 4. Conclusões 
 
