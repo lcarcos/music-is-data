@@ -101,7 +101,7 @@ for track in results['tracks'][:10]:
     print()
       
 ```
-Finalmente criamos um data frame com as músicas mais populares importando as respectivas características do áudio. 
+Finalmente criamos um DataFrame com as músicas mais populares importando as respectivas características do áudio. 
 
 [Ver código](https://github.com/lcarcos/music-is-data/blob/main/Projeto%20Final%20-%20BI%20Master%20-%20Luis%20Claudio%20Arcos.ipynb)
 
