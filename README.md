@@ -27,8 +27,7 @@ Algumas dessas características poderiam explicar o porquê de algumas músicas 
 
 O objetivo desse trabalho é a criação de uma aplicação de análise e categorização musical baseado no sistema de recomendação do Spotify. Utilizaremos Python e o API do Spotify em nosso desenvolvimento. 
 
-Nesse trabalho, utilizaremos como exemplo a artista Anitta. Queremos buscar suas músicas mais populares, oferecendo uma análise visual das características do áudio. Finalmente utilizaremos o sistema de recomendação do Spotify para criação de uma *playlist*. 
-
+Nesse trabalho, utilizaremos como exemplo a artista Anitta. Queremos buscar suas músicas mais populares, oferecendo uma análise visual das características do áudio.
 
 ### 2. Modelagem 
 
@@ -161,7 +160,11 @@ Em seguida criamos um gráfico comparando as características da música "Envolv
 
 ### 4. Conclusões 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula. Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam. 
+Na era digital, a música é um dado. Conforme apresentado, a recuperação de informações musicais (music information retrieval) é um campo de pesquisa crescente e essencial para serviços de *streaming*, como Spotify.
+
+A partir do desenvolvimento da aplicação utilizando a API da web do Spotify, foi possível entender um pouco mais sobre metadados musicais e a forma como ciência de dados, psicoacústica, processamento de sinais, aprendizado de máquina e inteligência computacional se combinam para a análise e categorização de dados musicais. 
+
+O projeto segue em desenvolvimento explorando as inúmeras possibilidades oferecidas pela API do Spotify. O objetivo é ampliar as possibilidades de análise e criar um web app com uma interface interativa utilizando Streamlit. 
 
 --- Matrícula: 202.190.234 Pontifícia Universidade Católica do Rio de Janeiro Curso de Pós Graduação *Business Intelligence Master*
 
