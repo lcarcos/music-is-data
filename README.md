@@ -143,7 +143,7 @@ Em nossa análise trabalharemos com 7 características principais relacionadas �
 
 #### Análise de Dados
 
-Nossa aplicação possibilita a criação de gráficos relacionando determinadas caractéristas do aúdio e popularidade. O gráfico a seguir apresenta as músicas mais populares da Anitta na plataforma Spotify, relacionando com a característica *"danceability"*.
+Nossa aplicação possibilita a criação de gráficos relacionando determinadas caractéristas do áudio e popularidade. O gráfico a seguir apresenta as músicas mais populares da Anitta na plataforma Spotify, relacionando com a característica *"danceability"*.
 
 ![fiagura1](https://user-images.githubusercontent.com/29662327/194157483-b6a8d83b-5d2a-4d71-9334-a5b58907c26e.png)
 
