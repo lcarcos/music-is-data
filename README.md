@@ -145,7 +145,7 @@ Em nossa análise trabalharemos com 7 características principais relacionadas �
 
 Focamos inicialmente nas 3 músicas mais populares da artista Anitta, “La Loto”,  "Dançarina" e "Envolver". Criamos um gráfico radar, que nos possibilita visualizar as características do áudio. 
 
-track    : **La Loto**
+#### **La Loto**
 
 cover art: ![La Loto](https://i.scdn.co/image/ab67616d0000b2732c4c95e7117b617b3c3c7de1)
 
@@ -156,7 +156,7 @@ A música “La Loto” apresenta o seguinte gráfico:
 ![la_loto_anitta](https://user-images.githubusercontent.com/29662327/194650318-218c6068-31a1-4a19-a938-6e500576714d.png)
 
 
-track    : **DANÇARINA (feat. Nicky Jam, MC Pedrinho) - Remix**
+#### **DANÇARINA (feat. Nicky Jam, MC Pedrinho) - Remix**
 
 cover art: ![Dançarina](https://i.scdn.co/image/ab67616d0000b27386ec217718905b9eeb9f712f)
 
@@ -166,8 +166,13 @@ A música “DANÇARINA" apresenta o seguinte gráfico:
 
 ![dancarina_anitta](https://user-images.githubusercontent.com/29662327/194653141-4b4929be-2ca0-4d5a-ab36-19937f15e192.png)
 
+O gráfico da música “Dançarina” apresenta um “desenho” semelhante destacando as mesmas características da música anterior.  O gráfico abaixo apresenta uma comparação entre as duas músicas:
 
-track    : Envolver
+![la_loto_dancarina_comapracao](https://user-images.githubusercontent.com/29662327/194665857-ec7e4f07-f404-4888-b469-6a568f092e40.PNG)
+
+A comparação demonstra que a música “La Loto” (carcterísticas 1), possui maior valência, ou seja, soa mais positiva, é mais dançante, e mais “energética”, 
+
+#### **Envolver**
 
 cover art: ![Envolver](https://i.scdn.co/image/ab67616d0000b27396e2642422ad16661e673fa2)
 
@@ -177,26 +182,34 @@ A música “Envolver" apresenta o seguinte gráfico:
 
 ![envolver_anitta](https://user-images.githubusercontent.com/29662327/194654328-7d33a44b-e029-4425-a22b-5c84b7fdcc77.png)
 
+Comparação entre a música "La Loto" e "Envolver": 
 
-Nossa aplicação possibilita a criação de gráficos relacionando determinadas caractéristas do áudio e popularidade. O gráfico a seguir apresenta as músicas mais populares da Anitta na plataforma Spotify, relacionando com a característica *"danceability"*.
+![la_loto_envolver_comapracao](https://user-images.githubusercontent.com/29662327/194661493-200e107f-a6ec-46e6-831b-380aed0f53d7.PNG)
+
+A comparação, como no caso anterior, demonstra que a música “La Loto” (carcterísticas 1), possui maior valência, soa mais positiva, é mais dançante, e mais “energética”, que a música "Envolver".  
+
+Nossa aplicação possibilita a criação de gráficos relacionando determinadas caractéristas do áudio e popularidade. O gráfico a seguir apresenta as 10 músicas mais populares da Anitta na plataforma Spotify, relacionando com a característica *"danceability"*. 
 
 ![fiagura1](https://user-images.githubusercontent.com/29662327/194157483-b6a8d83b-5d2a-4d71-9334-a5b58907c26e.png)
 
+O gráfico acima evidencia músicas altamente dançantes como uma característica da artista Anitta. 
 
-![figura2](https://user-images.githubusercontent.com/29662327/194157784-ac6d8326-6128-462c-a750-d5f50e2f5f66.png)
+O gráfico a seguir apresenta as 10 músicas mais populares da Anitta na plataforma Spotify, relacionando com a característica *"energy"*.
 
-Uma análise visual utilizando gráfico radar ajuda no entendimento das características do áudio. Pegamos como exemplo a música “Envolver”, da artista Anitta.  
+![energy](https://user-images.githubusercontent.com/29662327/194668352-c625ba42-b6dc-4292-8dd6-38f15d3ec0f8.png)
 
-![figura3](https://user-images.githubusercontent.com/29662327/194162267-d5db8e15-a31a-40c6-8efc-0c5f5a229bc5.png)
+O gráfico a seguir apresenta as 10 músicas mais populares da Anitta na plataforma Spotify, relacionando com a característica *"valence"*.
 
-Em seguida criamos um gráfico comparando as características da música "Envolver" e da música "Gata (feat. Chencho Corleone)". 
-
-![figura4](https://user-images.githubusercontent.com/29662327/194164406-0064ff11-6d01-4993-a675-ee01727e80e9.png)
+![valence](https://user-images.githubusercontent.com/29662327/194668414-183466ea-2ff0-4d21-8645-c8b3019d02c5.png)
 
 
 ### 4. Conclusões 
 
 Na era digital, a música é um dado. Conforme apresentado, a recuperação de informações musicais (music information retrieval) é um campo de pesquisa crescente e essencial para serviços de *streaming*, como Spotify.
+
+Maiores estudos são necessários para relacionar diretamente as características do aúdio e a popularidade das músicas. Mas analisando a data de lançamento das músicas, fica claro que os lançamentos  mais recentes são também as músicas mais populares.   Diante da forma como o algoritmo do Spotify funciona, e observando a volatilidade  como uma característica da Indústria da música, entendemos a preferência atual do mercado pelo lançamento de *singles*.  
+
+A partir de nossa análise foi possível comprovar através de dados algumas percepções intuitivas sobre a artista Anitta. Seu repertório é marcado por músicas dançantes, com poucas características acústicas, mais elementos eletrônica, músicas “energéticas” ou “barulhentas”, que soam positivamente.
 
 A partir do desenvolvimento da aplicação utilizando a API da web do Spotify, foi possível entender um pouco mais sobre metadados musicais e a forma como ciência de dados, psicoacústica, processamento de sinais, aprendizado de máquina e inteligência computacional se combinam para a análise e categorização de dados musicais. 
 
