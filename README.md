@@ -207,9 +207,9 @@ O gráfico a seguir apresenta as 10 músicas mais populares da Anitta na platafo
 
 Na era digital, a música é um dado. Conforme apresentado, a recuperação de informações musicais (music information retrieval) é um campo de pesquisa crescente e essencial para serviços de *streaming*, como Spotify.
 
-Maiores estudos são necessários para relacionar diretamente as características do aúdio e a popularidade das músicas. Mas analisando a data de lançamento das músicas, fica claro que os lançamentos  mais recentes são também as músicas mais populares.   Diante da forma como o algoritmo do Spotify funciona, e observando a volatilidade  como uma característica da Indústria da música, entendemos a preferência atual do mercado pelo lançamento de *singles*.  
+Maiores estudos são necessários para relacionar diretamente as características do aúdio e a popularidade das músicas. Mas analisando a data de lançamento das músicas, fica claro que os lançamentos  mais recentes são também as músicas mais populares.   Diante da forma como o algoritmo do Spotify funciona, e observando a volatilidade  como uma característica da indústria da música, entendemos a preferência atual do mercado pelo lançamento de *singles*.  
 
-A partir de nossa análise foi possível comprovar através de dados algumas percepções intuitivas sobre a artista Anitta. Seu repertório é marcado por músicas dançantes, com poucas características acústicas, mais elementos eletrônica, músicas “energéticas” ou “barulhentas”, que soam positivamente.
+A partir de nossa análise foi possível comprovar através de dados algumas percepções intuitivas sobre a artista Anitta. Seu repertório é marcado por músicas dançantes, com poucas características acústicas, mais elementos eletrônicos, músicas “energéticas” ou “barulhentas”, que soam positivamente.
 
 Com o desenvolvimento da aplicação utilizando a API da web do Spotify, foi possível entender um pouco mais sobre metadados musicais e a forma como ciência de dados, psicoacústica, processamento de sinais, aprendizado de máquina e inteligência computacional se combinam para a análise e categorização de dados musicais. 
 
