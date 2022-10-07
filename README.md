@@ -138,9 +138,45 @@ Para cada faixa em sua plataforma, o Spotify fornece dados para treze recursos d
 >
 >*Time Signature*: Uma assinatura de tempo geral estimada de uma faixa. A fórmula de compasso (medidor) é uma convenção de notação para especificar quantas batidas existem em cada compasso (ou medida).
 
-Em nossa análise trabalharemos com 7 características principais relacionadas à popularidade: *'acousticness', 'danceability', 'energy', 'instrumentalness', 'liveness', 'speechiness'* e *'valence’* .
 
 #### Análise de Dados
+
+Em nossa análise trabalharemos com 7 características principais relacionadas à popularidade: *'acousticness', 'danceability', 'energy', 'instrumentalness', 'liveness', 'speechiness'* e *'valence’* .
+
+Focamos inicialmente nas 3 músicas mais populares da artista Anitta, “La Loto”,  "Dançarina" e "Envolver". Criamos um gráfico radar, que nos possibilita visualizar as características do áudio. 
+
+track    : **La Loto**
+
+cover art: ![La Loto](https://i.scdn.co/image/ab67616d0000b2732c4c95e7117b617b3c3c7de1)
+
+audio    : [Prévia de 30 segundos](https://p.scdn.co/mp3-preview/f68791908c9ebdcd4feec24f1824297b5d7070cb?cid=16960f7026d64979bf989042a150a0ff)
+
+A música “La Loto” apresenta o seguinte gráfico: 
+
+![la_loto_anitta](https://user-images.githubusercontent.com/29662327/194650318-218c6068-31a1-4a19-a938-6e500576714d.png)
+
+
+track    : **DANÇARINA (feat. Nicky Jam, MC Pedrinho) - Remix**
+
+cover art: ![Dançarina](https://i.scdn.co/image/ab67616d0000b27386ec217718905b9eeb9f712f)
+
+audio    : [Prévia de 30 segundos](https://p.scdn.co/mp3-preview/9e573962771c2d3d07ad3c788fd8dc37d6f5e1a7?cid=16960f7026d64979bf989042a150a0ff)
+
+A música “DANÇARINA" apresenta o seguinte gráfico: 
+
+![dancarina_anitta](https://user-images.githubusercontent.com/29662327/194653141-4b4929be-2ca0-4d5a-ab36-19937f15e192.png)
+
+
+track    : Envolver
+
+cover art: ![Envolver](https://i.scdn.co/image/ab67616d0000b27396e2642422ad16661e673fa2)
+
+audio    : [Prévia de 30 segundos](https://p.scdn.co/mp3-preview/784196314fb6965fbe3a326ff543c8dd6e944ab4?cid=16960f7026d64979bf989042a150a0ff)
+
+A música “Envolver" apresenta o seguinte gráfico: 
+
+![envolver_anitta](https://user-images.githubusercontent.com/29662327/194654328-7d33a44b-e029-4425-a22b-5c84b7fdcc77.png)
+
 
 Nossa aplicação possibilita a criação de gráficos relacionando determinadas caractéristas do áudio e popularidade. O gráfico a seguir apresenta as músicas mais populares da Anitta na plataforma Spotify, relacionando com a característica *"danceability"*.
 
