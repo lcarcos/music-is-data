@@ -143,7 +143,7 @@ Para cada faixa em sua plataforma, o Spotify fornece dados para treze recursos d
 
 Em nossa análise trabalharemos com 7 características principais relacionadas à popularidade: *'acousticness', 'danceability', 'energy', 'instrumentalness', 'liveness', 'speechiness'* e *'valence’* .
 
-Focamos inicialmente nas 3 músicas mais populares da artista Anitta, “La Loto”,  "Dançarina" e "Envolver". Criamos um gráfico radar, que possibilita visualizarmos as características do áudio. 
+Focamos inicialmente nas 3 músicas mais populares da artista Anitta, “La Loto”,  "Dançarina" e "Envolver". Criamos um gráfico radar, que possibilita visualizarmos as características do áudio. A partir da API também filtramos a capa do álbum/simgle e uma prévia com 30 segundos do áudio das faixas. 
 
 #### **La Loto**
 
@@ -202,6 +202,7 @@ O gráfico a seguir apresenta as 10 músicas mais populares da Anitta na platafo
 
 ![valence](https://user-images.githubusercontent.com/29662327/194668414-183466ea-2ff0-4d21-8645-c8b3019d02c5.png)
 
+Como percebemos a partir da análise dos gráficos acima, algumas características são constantes nas músicas da artista Anitta e contribuem para consolidar sua identidade musical. Músicas altamente dançantes, com alto índice de energia, indicando músicas "agitadas". O parâmentro *valence* com altos índices, também é uma das caractéristicas marcantes, indicando músicas alegres, felizes, que soam positivamente. 
 
 ### 4. Conclusões 
 
@@ -209,7 +210,7 @@ Na era digital, a música é um dado. Conforme apresentado, a recuperação de i
 
 Maiores estudos são necessários para relacionar diretamente as características do aúdio e a popularidade das músicas. Mas analisando a data de lançamento das músicas, fica claro que os lançamentos  mais recentes são também as músicas mais populares.   Diante da forma como o algoritmo do Spotify funciona, e observando a volatilidade  como uma característica da indústria da música, entendemos a preferência atual do mercado pelo lançamento de *singles*.  
 
-A partir de nossa análise foi possível comprovar através de dados algumas percepções intuitivas sobre a artista Anitta. Seu repertório é marcado por músicas dançantes, com poucas características acústicas, mais elementos eletrônicos, músicas “energéticas” ou “barulhentas”, que soam positivamente.
+A partir de nossa análise foi possível comprovar através de dados algumas percepções intuitivas sobre a artista Anitta. Seu repertório é marcado por músicas dançantes, com poucas características acústicas, mais elementos eletrônicos, músicas “energéticas” ou “agitadas”, que soam positivamente.
 
 Com o desenvolvimento da aplicação utilizando a API da web do Spotify, foi possível entender um pouco mais sobre metadados musicais e a forma como ciência de dados, psicoacústica, processamento de sinais, aprendizado de máquina e inteligência computacional se combinam para a análise e categorização de dados musicais. 
 
