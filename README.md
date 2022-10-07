@@ -143,7 +143,7 @@ Para cada faixa em sua plataforma, o Spotify fornece dados para treze recursos d
 
 Em nossa análise trabalharemos com 7 características principais relacionadas à popularidade: *'acousticness', 'danceability', 'energy', 'instrumentalness', 'liveness', 'speechiness'* e *'valence’* .
 
-Focamos inicialmente nas 3 músicas mais populares da artista Anitta, “La Loto”,  "Dançarina" e "Envolver". Criamos um gráfico radar, que nos possibilita visualizar as características do áudio. 
+Focamos inicialmente nas 3 músicas mais populares da artista Anitta, “La Loto”,  "Dançarina" e "Envolver". Criamos um gráfico radar, que possibilita visualizarmos as características do áudio. 
 
 #### **La Loto**
 
