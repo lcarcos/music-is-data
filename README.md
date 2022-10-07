@@ -211,7 +211,7 @@ Maiores estudos são necessários para relacionar diretamente as característica
 
 A partir de nossa análise foi possível comprovar através de dados algumas percepções intuitivas sobre a artista Anitta. Seu repertório é marcado por músicas dançantes, com poucas características acústicas, mais elementos eletrônica, músicas “energéticas” ou “barulhentas”, que soam positivamente.
 
-A partir do desenvolvimento da aplicação utilizando a API da web do Spotify, foi possível entender um pouco mais sobre metadados musicais e a forma como ciência de dados, psicoacústica, processamento de sinais, aprendizado de máquina e inteligência computacional se combinam para a análise e categorização de dados musicais. 
+Com o desenvolvimento da aplicação utilizando a API da web do Spotify, foi possível entender um pouco mais sobre metadados musicais e a forma como ciência de dados, psicoacústica, processamento de sinais, aprendizado de máquina e inteligência computacional se combinam para a análise e categorização de dados musicais. 
 
 O projeto segue em desenvolvimento explorando as inúmeras possibilidades oferecidas pela API do Spotify. O objetivo é ampliar as possibilidades de análise e criar um web app com uma interface interativa utilizando Streamlit. 
 
