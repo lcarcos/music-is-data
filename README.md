@@ -29,6 +29,8 @@ O objetivo desse trabalho é a criação de uma aplicação de análise e catego
 
 Nesse trabalho, utilizaremos como exemplo a artista Anitta. Queremos buscar suas músicas mais populares, oferecendo uma análise visual das características do áudio.
 
+<div style="page-break-after: always;"></div>
+
 ### 2. Modelagem 
 
 #### Acesso a API do Spotify
@@ -105,6 +107,9 @@ Finalmente criamos um DataFrame com as músicas mais populares importando as res
 
 [Ver código](https://github.com/lcarcos/music-is-data/blob/main/Projeto%20Final%20-%20BI%20Master%20-%20Luis%20Claudio%20Arcos.ipynb)
 
+
+<div style="page-break-after: always;"></div>
+
 ### 3. Resultados 
 
 #### Características do Áudio
@@ -155,6 +160,7 @@ A música “La Loto” apresenta o seguinte gráfico:
 
 ![la_loto_anitta](https://user-images.githubusercontent.com/29662327/194650318-218c6068-31a1-4a19-a938-6e500576714d.png)
 
+<div style="page-break-after: always;"></div>
 
 #### **DANÇARINA (feat. Nicky Jam, MC Pedrinho) - Remix**
 
@@ -171,6 +177,8 @@ O gráfico da música “Dançarina” apresenta um “desenho” semelhante des
 ![la_loto_dancarina_comapracao](https://user-images.githubusercontent.com/29662327/194665857-ec7e4f07-f404-4888-b469-6a568f092e40.PNG)
 
 A comparação demonstra que a música “La Loto” (carcterísticas 1), possui maior valência, ou seja, soa mais positiva, é mais dançante, e mais “energética”, 
+
+<div style="page-break-after: always;"></div>
 
 #### **Envolver**
 
@@ -203,6 +211,8 @@ O gráfico a seguir apresenta as 10 músicas mais populares da Anitta na platafo
 ![valence](https://user-images.githubusercontent.com/29662327/194668414-183466ea-2ff0-4d21-8645-c8b3019d02c5.png)
 
 Como percebemos a partir da análise dos gráficos acima, algumas características são constantes nas músicas da artista Anitta e contribuem para consolidar sua identidade musical. Músicas altamente dançantes, com alto índice de energia, indicando músicas "agitadas". O parâmentro *valence* com altos índices, também é uma das caractéristicas marcantes, indicando músicas alegres, felizes, que soam positivamente. 
+
+<div style="page-break-after: always;"></div>
 
 ### 4. Conclusões 
 
