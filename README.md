@@ -65,8 +65,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 
 ```
 ```
-SPOTIPY_CLIENT_ID='16960f7026d64979bf989042a150a0ff'
-SPOTIPY_CLIENT_SECRET='ba1a553dd0e8427cae6a7fbacc676f5d'
+SPOTIPY_CLIENT_ID='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+SPOTIPY_CLIENT_SECRET='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 ```
 ```
