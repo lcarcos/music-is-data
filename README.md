@@ -208,7 +208,7 @@ Como percebemos a partir da análise dos gráficos acima, algumas característic
 
 Na era digital, a música é um dado. Conforme apresentado, a recuperação de informações musicais (music information retrieval) é um campo de pesquisa crescente e essencial para serviços de *streaming*, como Spotify.
 
-Maiores estudos são necessários para relacionar diretamente as características do aúdio e a popularidade das músicas. Mas analisando a data de lançamento das músicas, fica claro que os lançamentos  mais recentes são também as músicas mais populares.   Diante da forma como o algoritmo do Spotify funciona, e observando a volatilidade  como uma característica da indústria da música, entendemos a preferência atual do mercado pelo lançamento de *singles*.  
+Maiores estudos são necessários para relacionar diretamente as características do áudio e a popularidade das músicas. Mas analisando a data de lançamento das músicas, fica claro que os lançamentos  mais recentes são também as músicas mais populares.   Diante da forma como o algoritmo do Spotify funciona, e observando a volatilidade  como uma característica da indústria da música, entendemos a preferência atual do mercado pelo lançamento de *singles*.  
 
 A partir de nossa análise foi possível comprovar através de dados algumas percepções intuitivas sobre a artista Anitta. Seu repertório é marcado por músicas dançantes, com poucas características acústicas, mais elementos eletrônicos, músicas “energéticas” ou “agitadas”, que soam positivamente.
 
