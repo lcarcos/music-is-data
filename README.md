@@ -160,6 +160,9 @@ A música “La Loto” apresenta o seguinte gráfico:
 
 ![la_loto_anitta](https://user-images.githubusercontent.com/29662327/194650318-218c6068-31a1-4a19-a938-6e500576714d.png)
 
+O gráfico nos mostra uma música com destaque em algumas características como **energy, danceability** e **valence**. De acordo com o Spotify, "normalmente, as faixas energéticas parecem rápidas, altas e barulhentas.” Um alto índice de **danceability**, “descreve como uma faixa é adequada para dançar”.  **Valence**”descreve a positividade musical transmitida por uma faixa. Faixas com alta valência soam mais positivas. 
+
+
 <div style="page-break-after: always;"></div>
 
 #### **DANÇARINA (feat. Nicky Jam, MC Pedrinho) - Remix**
