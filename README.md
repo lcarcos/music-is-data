@@ -9,7 +9,7 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 
 ### Resumo 
 
-A recuperação de informações musicais, ou MIR - Music Information Retrieval, é a ciência de analisar e categorizar dados musicais. MIR é um campo de pesquisa crescente, com muitas aplicações no mundo real. Sistemas de recomendação musical são exemplos de aplicação. A plataforma de streaming de música Spotify aplica técnicas de inteligência artificial para análise de áudio e disponibiliza acesso a esses dados através de sua API da Web. Esse trabalho apresenta o desenvolvimento de uma aplicação de análise e categorização de dados musicais utilizando Python e a API da Web do Spotify.
+A recuperação de informações musicais, ou *MIR - Music Information Retrieval*, é a ciência de analisar e categorizar dados musicais. MIR é um campo de pesquisa crescente, com muitas aplicações no mundo real. Sistemas de recomendação musical são exemplos de aplicação. A plataforma de streaming de música Spotify aplica técnicas de inteligência artificial para análise de áudio e disponibiliza acesso a esses dados através de sua API da Web. Esse trabalho apresenta o desenvolvimento de uma aplicação de análise e categorização de dados musicais utilizando Python e a API da Web do Spotify.
 
 ### Abstract 
 
@@ -19,7 +19,7 @@ Music Information Retrieval, or MIR, is the science of analyzing and categorizin
 
 Provavelmente, você está inscrito em algum tipo de serviço popular de streaming de música. Seja Spotify, Deezer ou Apple Music, você provavelmente já foi exposto a um aplicativo de recuperação de informações musicais. 
 
-A recuperação de informações musicais (music information retrieval) é a ciência de analisar e categorizar dados musicais. Algumas aplicações do MIR estão intimamente relacionadas ao campo da ciência de dados, ao mesmo tempo em que combinam vários campos, como psicoacústica, processamento de sinais, aprendizado de máquina e inteligência computacional. O MIR é um campo de pesquisa crescente, com muitas aplicações no mundo real. Sistemas de recomendação musical são exemplos de aplicação. 
+A recuperação de informações musicais (*music information retrieval*) é a ciência de analisar e categorizar dados musicais. Algumas aplicações do *MIR* estão intimamente relacionadas ao campo da ciência de dados, ao mesmo tempo em que combinam vários campos, como psicoacústica, processamento de sinais, aprendizado de máquina e inteligência computacional. O MIR é um campo de pesquisa crescente, com muitas aplicações no mundo real. Sistemas de recomendação musical são exemplos de aplicação. 
 
 O Spotify é um serviço de música muito popular que aplica técnicas de aprendizagem de máquina para análise de áudio e recuperação de informações musicais.  Felizmente, o Spotify disponibiliza esses dados através de sua API da Web. É possível explorar as características do áudio e analisar detalhadamente as faixas.
 
@@ -219,7 +219,7 @@ Como percebemos a partir da análise dos gráficos acima, algumas característic
 
 ### 4. Conclusões 
 
-Na era digital, a música é um dado. Conforme apresentado, a recuperação de informações musicais (music information retrieval) é um campo de pesquisa crescente e essencial para serviços de *streaming*, como Spotify.
+Na era digital, a música é um dado. Conforme apresentado, a recuperação de informações musicais (*music information retrieval*) é um campo de pesquisa crescente e essencial para serviços de *streaming*, como Spotify.
 
 Maiores estudos são necessários para relacionar diretamente as características do áudio e a popularidade das músicas. Mas analisando a data de lançamento das músicas, fica claro que os lançamentos  mais recentes são também as músicas mais populares.   Diante da forma como o algoritmo do Spotify funciona, e observando a volatilidade  como uma característica da indústria da música, entendemos a preferência atual do mercado pelo lançamento de *singles*.  
 
